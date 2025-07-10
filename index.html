@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c20b44c310.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>HOME</li>
+          <li>STORE</li>
+          <li>CONTACT</li>
+          <li>ABOUT</li>
+        </ul>
+      </nav>
+
+      <div class="desc">
+        <h1>60% DISCOUNT</h1>
+        <p>on Every Products</p>
+        <div class="shopBtn"><i class="fa-solid fa-bag-shopping"></i></div>
+      </div>
+    </header>
+    <main>
+      <div class="bestseller">
+        <div class="intro">
+          <h1>OUR BESTSELLING</h1>
+          <h2>PRODUCTS</h2>
+        </div>
+        <div class="listing"></div>
+      </div>
+
+      <div class="gap">
+        <span class="quote">FUEL YOUR FITNESS JOURNEY</span>
+      </div>
+      <div class="join">
+        <div class="heading">
+          <div class="head">
+            <h2>Join the</h2>
+            <h1>#FitWithRudra Movement</h1>
+          </div>
+          <div class="desc">
+            <p>
+              Think of us as your ultimate fitness companion—always there to
+              guide, motivate, and celebrate every step of your transformation!
+              From expert workout tips and real-time progress hacks to
+              no-nonsense answers for all your fitness questions, we’ve got you
+              covered. Dive into our inspiring blogs for pro-level guidance,
+              discover curated routines that match your goals, and stay
+              connected with us on social media for daily motivation,
+              transformation stories, and everything fitness. Let’s lift, learn,
+              and grow—together!
+            </p>
+          </div>
+        </div>
+        <div class="joinImage"></div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <i class="fas fa-dumbbell fa-2x"></i>
+          <p>SPORTS NUTRITION</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Products</h3>
+          <ul>
+            <li>Protein Wafer Bar</li>
+            <li>100% Performance Whey</li>
+            <li>Whey Protein</li>
+            <li>Isorich Protein</li>
+            <li>Creatine Monohydrate</li>
+            <li>Nitro Iso Whey</li>
+            <li>Alpha Whey</li>
+            <li>Muscle Gainer</li>
+            <li>Mass Gainer</li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Information</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Why us</li>
+            <li>Privacy Policy</li>
+            <li>Authenticate</li>
+            <li>Terms of Use</li>
+            <li>Media</li>
+            <li>Return Policy</li>
+            <li>Track Order</li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p><strong>Toll Free Number :</strong> 7001157475</p>
+          <p>
+            <strong>Our Care Email :</strong><br />
+            onsrudrasikdar@gmail.com
+          </p>
+          <p>
+            <strong>Email & Call Timings:</strong><br />
+            Monday to Saturday (11:00 AM – 6:00 PM)
+          </p>
+          <p>
+            <strong>WhatsApp Messaging:</strong><br />
+            Monday to Friday (9:30 AM – 6:30 PM)<br />
+            (No calls will be entertained on WhatsApp.)
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us On</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const products = [
+        {
+          name: "Avvatar Whey Protein | 4kg | Chocolate Hazelnut",
+          discountedPrice: "Rs. 10499",
+          originalPrice: "Rs. 16449",
+        },
+        {
+          name: "Optimum Nutrition Gold Standard Whey | 2kg | Double Rich Chocolate",
+          discountedPrice: "Rs. 5299",
+          originalPrice: "Rs. 7799",
+        },
+        {
+          name: "Dymatize ISO100 Whey Protein | 2.3kg | Gourmet Vanilla",
+          discountedPrice: "Rs. 8499",
+          originalPrice: "Rs. 9999",
+        },
+        {
+          name: "MyProtein Impact Whey Protein | 5kg | Chocolate Smooth",
+          discountedPrice: "Rs. 9299",
+          originalPrice: "Rs. 11999",
+        },
+        {
+          name: "MuscleBlaze Biozyme Whey Protein | 2kg | Rich Chocolate",
+          discountedPrice: "Rs. 4499",
+          originalPrice: "Rs. 5999",
+        },
+        {
+          name: "Ultimate Nutrition Prostar Whey | 5.28lb | Chocolate Creme",
+          discountedPrice: "Rs. 4999",
+          originalPrice: "Rs. 7499",
+        },
+        {
+          name: "AS-IT-IS Nutrition Whey Protein Concentrate | 1kg | Unflavoured",
+          discountedPrice: "Rs. 1399",
+          originalPrice: "Rs. 2199",
+        },
+        {
+          name: "GNC Pro Performance Whey Protein | 2kg | Chocolate Supreme",
+          discountedPrice: "Rs. 4799",
+          originalPrice: "Rs. 6599",
+        },
+        {
+          name: "Labrada 100% Whey Protein | 4.4lb | Chocolate",
+          discountedPrice: "Rs. 3999",
+          originalPrice: "Rs. 5799",
+        },
+        {
+          name: "BigMuscles Nutrition Raw Whey | 2kg | Unflavoured",
+          discountedPrice: "Rs. 2399",
+          originalPrice: "Rs. 3199",
+        },
+      ];
+      let containerCart = "";
+      products.forEach((product) => {
+        containerCart += ` <div class="container">
+          <div class="image"></div>
+          <div class="intro">
+            <p>${product.name}</p>
+            <p class="price">${product.discountedPrice} <strike>${product.originalPrice}</strike></p>
+            <button>BUY NOW</button>
+          </div>
+          
+        </div>  `;
+      });
+      document.querySelector(".listing").innerHTML = containerCart;
+    </script>
+  </body>
+</html>
